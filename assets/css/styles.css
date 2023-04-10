@@ -1,5 +1,12 @@
+/* Common */
 * {
     box-sizing: border-box;
+}
+
+:root {
+    --primary-black: #171100;
+    --secondary-gray: #5f5b53;
+    --third-orange: #ffb900;
 }
 
 html {
@@ -9,3 +16,15 @@ html {
 body {
     font-family: "Poppins";
 }
+
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+}
+
+/* Header */
