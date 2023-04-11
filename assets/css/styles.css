@@ -17,6 +17,13 @@ body {
     font-family: "Poppins";
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Sen";
+}
+
 a {
     text-decoration: none;
 }
@@ -97,4 +104,154 @@ a {
 
 .header .sign-up-btn:hover {
     background-color: var(--third-orange);
+}
+
+/* Hero */
+
+.hero {
+    padding-top: 64px;
+    background: #fffcf4;
+}
+
+.hero .body {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 160px);
+}
+
+/* hero-img-block */
+
+.img-block {
+    width: 48%;
+    position: relative;
+}
+
+.img-block .img-hero {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img-block .course-list {
+    position: absolute;
+    bottom: 48px;
+    right: 0;
+    padding: 24px;
+    background: #fff;
+}
+
+.course-list .course-item {
+    display: flex;
+    align-items: center;
+}
+
+.course-list .icon {
+    padding: 12px;
+    background: #ffb900;
+    border-radius: 50%;
+}
+
+.course-list .course-item:not(:nth-of-type(1)) {
+    margin-top: 22px;
+}
+
+.course-list .course-item:nth-of-type(1) .icon {
+    background: #fff9e8;
+}
+.course-list .course-item:nth-of-type(2) .icon {
+    background: #fcefff;
+}
+.course-list .course-item:nth-of-type(3) .icon {
+    background: #ebeaff;
+}
+
+.course-list .course-info {
+    margin-left: 16px;
+}
+
+.course-info .info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.course-info .label {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #171100;
+}
+
+/* hero-media-block */
+
+.media-block {
+    width: 52%;
+    padding-left: 130px;
+}
+
+.media-block .title {
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.media-block .desc {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+
+.cta-btn {
+    margin: 38px 0 48px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-btn .hero-cta-btn {
+    min-width: 180px;
+    background: #ffb900;
+    border-radius: 32px;
+}
+
+.cta-btn .hero-cta-btn:hover {
+    opacity: 0.7;
+}
+
+.cta-btn .hero-video-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+    background: #fffcf4;
+    cursor: pointer;
+}
+
+.cta-btn .icon {
+    margin-right: 14px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+.media-block .stats {
+    font-family: "Sens";
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 1.23;
+    color: #171100;
+}
+
+.media-block .desc:last-child {
+    margin-top: 8px;
 }
